@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import Parent from "./props/Parent";
+import UserSearch from "./refs/UserSearch";
  
 const el = document.getElementById("root");
  
@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(el!);
 const App = () => {
   return (
     <div>
-      <Parent/>
+      <UserSearch/>
     </div>
   );
 };
